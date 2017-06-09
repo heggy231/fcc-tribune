@@ -1,0 +1,73 @@
+<!-- we have links here therefore open terminal > python -m SimpleHTTPServer 8000 to view https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT-yhiyLSLMQGPDg7RkvJJ8UV9CBKPscacAHym5PFUyc2QvaMR4dQ-->
+<!-- https://www.whitehouse.gov/1600/presidents/abrahamlincoln https://codepen.io/freeCodeCamp/full/NNvBQW https://codepen.io/heggy231/pen/RgrRJo-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+<div class="container">
+    <div class="jumbotron">
+        <h1 class = "text-center">Abraham Lincoln is the best!</h1>
+        <h1 class= "text-center"><small>Who declared forever freedom to slaves</small></h1>
+        <div id="myCarousel" class="carousel slide" data-ride="carousel">
+            <!-- Indicators -->
+            <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+            <li data-target="#myCarousel" data-slide-to="2"></li>
+            </ol>
+
+            <!-- Wrapper for slides -->
+            <div class="thumbnail">
+            <div class="carousel-inner">
+                <div class="item active">
+                    <div alt="Frontal Abraham Lincoln" style="width:100%; height: 500px; background-image: url(http://americanhistory.si.edu/sites/default/files/exhibitions/lincoln_life_b.jpg); background-size: cover;"></div>
+
+                </div>
+
+                <div class="item">
+                    <div  alt="lincoln sitting" style="width:100%; height: 500px; background-image: url(https://navyseals.com/wp-content/uploads/2015/02/Lincoln_Memorial.jpg); background-size: cover;"></div>
+
+                </div>
+                
+                <div class="item">
+                    <div alt="lincoln hand" style="width:100%; height: 500px;background-image: url(http://www.politicalgarbagechute.com/wp-content/uploads/2016/05/abe.jpg); background-size: cover;"></div>
+
+                </div>
+            </div>
+            <div class = "caption text-center">I am text here </div>
+            </div>
+
+            <!-- Left and right controls -->
+            <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left"></span>
+            <span class="sr-only">Previous</span>
+            </a>
+            <a class="right carousel-control" href="#myCarousel" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right"></span>
+            <span class="sr-only">Next</span>
+            </a>
+        </div>
+
+<!-- look at offset col grid system-->
+
+        <h2>Basic List Group</h2>
+        <ul class="list-group">
+            <li class="list-group-item">First item</li>
+            <li class="list-group-item">Second item</li>
+            <li class="list-group-item">Third item</li>
+        </ul>
+
+    </div>
+</div>
+
+</body>
+</html>
