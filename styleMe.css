@@ -20,3 +20,7 @@ footer {
     /*text-transform: uppercase;*/
     font-variant: small-caps;
 }
+
+.jumbotron {
+    padding-top: 0px;
+}
