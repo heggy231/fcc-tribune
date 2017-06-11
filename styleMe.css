@@ -31,10 +31,10 @@ footer {
 }
 /* mouse over link */
 nav a:hover {
-    background-color: #16168a !important;
+    background-color: #b7bcc1 !important;
 }
 /* selected link */
-nav a:active {
+nav a:focus {
     background-color:#e7e7e7 !important;
 }
 
