@@ -30,12 +30,12 @@ footer {
     border-color: #607d8b;
 }
 /* mouse over link */
- a:hover {
-    background-color: blue;
+nav a:hover {
+    background-color: #16168a !important;
 }
 /* selected link */
- a:active {
-    background-color: red;
+nav a:active {
+    background-color:#e7e7e7 !important;
 }
 
 nav .navbar-nav {
