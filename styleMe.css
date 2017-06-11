@@ -31,11 +31,11 @@ footer {
 }
 /* mouse over link */
 nav a:hover {
-    color: hotpink;
+    color: blue;
 }
 /* selected link */
 nav a:active {
-    background-color: #e7e7e7;
+    background-color: red;
 }
 
 nav .navbar-nav {
