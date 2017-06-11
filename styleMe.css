@@ -29,9 +29,13 @@ footer {
     background-color: #607d8b;
     border-color: #607d8b;
 }
-
+/* mouse over link */
 nav a:hover {
     color: hotpink;
+}
+/* selected link */
+nav a:active {
+    background-color: #e7e7e7;
 }
 
 nav .navbar-nav {
