@@ -1,7 +1,7 @@
 # fcc-tribute
 fcc-tribute page for front end developer certification using bootstrap 3, html 5, css 3
-- Demo page: http://heggy.me/fcc-tribute/home.html
-- I enjoy putting things together using boostrap.  https://www.w3schools.com/bootstrap/
+- **[Demo](https://heggy231.github.io/fcc-tribute/)**
+- I enjoy putting things together using [boostrap.](https://www.w3schools.com/bootstrap/)
     - [BS 3] Jumbotron
     - [BS 3] CSS Typography
     - [BS 3] CSS Grid System
